@@ -65,13 +65,18 @@ endfunction
 
 " Variables {{{1
 let s:cow = [
-      \ '       o',
-      \ '        o   ^__^',
-      \ '         o  (oo)\_______',
-      \ '            (__)\       )\/\',
-      \ '                ||----w |',
-      \ '                ||     ||',
-      \ ]
+\ ' o
+\ '  o   _________         .    .
+\ '   o (..       \_    ,  |\  /|
+\ '      \       O  \  /|  \ \/ /
+\ '       \______    \/ |   \  / 
+\ '          vvvv\    \ |   /  |
+\ '          \^^^^  ==   \_/   |
+\ '           `\_   ===    \.  |
+\ '           / /\_   \ /      |
+\ '           |/   \_  \|      /
+\ '                  \________/
+\]
 
 let g:startify_fortune_use_unicode = &encoding == 'utf-8' && get(g:, 'startify_fortune_use_unicode')
 
